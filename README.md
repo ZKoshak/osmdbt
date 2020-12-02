@@ -8,7 +8,7 @@ OSM database!**
 
 ## Prerequisites
 
-You need a C++11 compliant compiler. GCC 8 and later as well as clang 7 and
+You need a C++17 compliant compiler. GCC 8 and later as well as clang 7 and
 later are known to work.
 
 You also need the following libraries:
@@ -58,7 +58,7 @@ You also need the following libraries:
         Debian/Ubuntu: libyaml-cpp-dev
         Fedora/CentOS: yaml-cpp-devel
 
-    libpqxx (version 6)
+    libpqxx (version 7, exclude 7.2.0)
         https://github.com/jtv/libpqxx/
         Debian/Ubuntu: libpqxx-dev
         Fedora/CentOS: libpqxx-devel
